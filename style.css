@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: blue;
+}
+
+main {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.info-section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #32CD32;
+}
+
+h3 {
+  color: #8A2BE2; /* لون البنفسجي */
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #aaa;
+}
+
+.contact-section {
+  margin-top: 50px;
+}
+
+.question-title {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #333;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #8A2BE2; /* لون البنفسجي */
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #555;
+}
+
+@keyframes buttonPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:active {
+  animation: buttonPulse 0.5s ease-in-out;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 20px;
+}
